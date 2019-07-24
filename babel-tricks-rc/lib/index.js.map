@@ -1,1 +1,0 @@
-{"version":3,"sources":["../src/index.js"],"names":["aprom","word","console","log"],"mappings":"AAAA,MAAMA,QAAeC,IAAP;AAAA;AAAA,eACJC,QAAQC,GAAR,CAAY,sBAAsBF,IAAlC,CADI;AAAA;AAEVC,gBAAQC,GAAR,CAAY,MAAZ;AAFU;AAAA,CAAd","file":"index.js","sourcesContent":["const aprom = async (word) => {\n    await console.log('I promise to say ' + word)\n    console.log('Done');\n} "]}
