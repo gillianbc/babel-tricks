@@ -1,0 +1,18 @@
+{
+  "name": "babel-tricks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib --watch --source-maps",
+    "start": "node ./lib/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gillianbc",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "babel-plugin-async-to-promises": "^1.0.5"
+  }
+}
